@@ -19,7 +19,7 @@ Install into local Maven repository:
 ```
 mvn clean install
 ```
-To override Randoop version 4.0.3 if needed run instead:
+To override Randoop version 4.1.0 if needed run instead:
 ```
 mvn clean install -Drevision=new.version
 ```
@@ -35,9 +35,9 @@ plugin:
     </plugins>
         ...
         <plugin>
-            <groupId>com.5aab.automation</groupId>
+            <groupId>me.lisirrx</groupId>
             <artifactId>randoop-maven-plugin</artifactId>
-            <version>4.0.3</version>
+            <version>4.1.0</version>
             <configuration>
                 <packageName>my.base.package</packageName>
             </configuration>
